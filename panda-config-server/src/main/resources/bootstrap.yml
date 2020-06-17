@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/YuKongEr/panda-config
+          uri: https://github.com/hwhcoder/config-reps
           default-label: ${spring.profiles.active}
 eureka:
   instance:

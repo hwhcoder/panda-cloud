@@ -53,6 +53,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!--spring-security-oauth2-->
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
@@ -86,6 +87,7 @@
 			<version>${mysql-connector.version}</version>
 		</dependency>
 
+		<!--HikariCP-->
 		<dependency>
 			<groupId>com.zaxxer</groupId>
 			<artifactId>HikariCP</artifactId>

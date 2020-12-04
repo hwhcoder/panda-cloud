@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * Eureka服务端
+ * Eureka服务端，因此本类不需要 @EnableDiscoveryClient
  * 本工程比较简单，没有业务逻辑
  */
 @EnableEurekaServer
